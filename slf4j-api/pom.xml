@@ -11,12 +11,18 @@
   </parent>
 
   <artifactId>slf4j-api</artifactId>
+  <version>1.7.26-EAX</version>
 
   <packaging>jar</packaging>
   <name>SLF4J API Module</name>
   <description>The slf4j API</description>
 
   <url>http://www.slf4j.org</url>
+
+
+  <properties>
+    <required.jdk.version>1.8</required.jdk.version>
+  </properties>
 
   <build>
     <plugins>
